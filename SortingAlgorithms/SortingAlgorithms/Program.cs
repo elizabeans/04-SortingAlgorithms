@@ -88,7 +88,6 @@ namespace SortingAlgorithms
                     list[j] = list[j - 1];
                     list[j - 1] = temp;
                     j = j - 1;
-                    Console.WriteLine(list[j]);
                 }
             }
 
